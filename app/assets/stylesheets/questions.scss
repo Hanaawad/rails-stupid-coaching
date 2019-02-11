@@ -1,0 +1,74 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+
+
+.hana-container {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.background {
+
+   width: 600px;
+   border-left:solid grey 3px;
+  margin:0 auto;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.backgroundone {
+   background-color: lightblue;
+   width: 600px;
+   border-left:solid grey 3px;
+  margin:0 auto;
+    padding-top: 10px;
+}
+.link{
+
+   width:600px;
+  margin:0 auto;
+}
+
+.background h1 {
+  text-align: left;
+  font-size: 20px;
+
+}
+
+.backgroundone h1 {
+  text-align: left;
+  font-size: 20px;
+
+}
+.background h2 {
+  text-align: left;
+  font-size: 10px;
+
+}
+
+.backgroundone h2 {
+  text-align: left;
+  font-size: 10px;
+
+}
